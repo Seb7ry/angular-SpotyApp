@@ -1,4 +1,6 @@
+import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
+import { SpotifyService } from '../../services/spotify.service';
 
 @Component({
   selector: 'app-home',
@@ -7,4 +9,9 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+  constructor( private spotify : SpotifyService ){
+      
+    spotify.getNewReleases();
+
+  }
 }
