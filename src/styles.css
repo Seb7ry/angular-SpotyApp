@@ -65,3 +65,12 @@ hr {
 .fadeIn {
     animation-name: fadeIn;
 }
+
+/* Estilos para centrar el componente */
+.app-loading-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
