@@ -10,7 +10,7 @@ import { SearchComponent } from './components/search/search.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { ArtistComponent } from './components/artist/artist.component';
 import { RouterModule } from '@angular/router';
-import { SpotifyService } from './services/spotify.service';
+import { NoimagePipe } from './pipes/noimage.pipe';
 
 @NgModule({
   declarations: [
@@ -18,7 +18,8 @@ import { SpotifyService } from './services/spotify.service';
     HomeComponent,
     SearchComponent,
     NavbarComponent,
-    ArtistComponent
+    ArtistComponent,
+    NoimagePipe
   ],
   imports: [
     BrowserModule,
