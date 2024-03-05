@@ -21,8 +21,6 @@ export class CardComponent {
     } else {
       artistId = item.artists[0].id;
     }
-
     this.router.navigate( [ '/artist', artistId] );
   }
-
 }

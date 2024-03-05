@@ -1,0 +1,9 @@
+.transparent-table {
+    background-color: transparent;
+    border-collapse: collapse;
+}
+.transparent-table th,
+.transparent-table td {
+    border: 1px solid #000; /* Ajusta este valor según tus necesidades */
+    padding: 8px; /* Ajusta este valor según tus necesidades */
+}
