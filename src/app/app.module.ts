@@ -13,6 +13,7 @@ import { RouterModule } from '@angular/router';
 import { NoimagePipe } from './pipes/noimage.pipe';
 import { CardComponent } from './components/shared/card/card.component';
 import { LoadingComponent } from './components/shared/loading/loading.component';
+import { DomseguroPipe } from './pipes/domseguro.pipe';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { LoadingComponent } from './components/shared/loading/loading.component'
     ArtistComponent,
     NoimagePipe,
     CardComponent,
-    LoadingComponent
+    LoadingComponent,
+    DomseguroPipe
   ],
   imports: [
     BrowserModule,
